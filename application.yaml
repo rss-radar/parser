@@ -1,0 +1,10 @@
+app:
+  name: parser
+  addr: ":8080"
+  run_mode: debug
+db:
+  connection: postgres
+  host: 127.0.0.1
+  username: postgres
+  password: passw0rd
+
