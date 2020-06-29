@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{.title}}</title>
+
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body class="bg-primary">
+  <div class="d-flex min-vh-100 flex-column">
+    <div class="flex-grow-1 mw-0">
+      <main>
+        {{template "content" .}}
+      </main>
+    </div>
+
+    {{include "shared/footer"}}
+  </div>
+</body>
+</html>
